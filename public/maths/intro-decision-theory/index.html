@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="by Martin Peterson
+Answers to questions.
+Introduction
+
+a
+
+A decision is right if its outcome is most optimal compared to all other outcomes. A decision is rational if it is the best way of achieving the decision-makers ends, given what he knows.
+In decisions made under risk, the decision-maker knows the probabilities of possible outcomes. In decisions made under ignorance, he does not.
+
+
+b
+
+Social choices are those made collectively. Individual decisions are of many types, but mainly consider the actions of a single individual.
+Games involve multiple players whose actions affect each other.
+
+
+c
+
+Ignorance. He had no data by which he could infer the probabilities (risks) of the outcomes of his decision. If we consider merely the question of death, he could not have known the probability of the plane dying and his perishing, or the probability of the plane landing safely.
+Risk. I can use the internet to determine the probability of me dying in a plane crash on the way or surviving and construct a payoff matrix, unlike Lindbergh.
+
+
+d
+
+B to A, and D to C? My mind immediately went to calculation, so this was not really intuitive.
+b
+
+For A: 2 million guaranteed.
+For B: $0 * 1/100 &#43; 15 * 19/100 &#43; 2 * 80/100 = 4.45$ million.
+For C: $2*20/100 = 0.4$ million.
+For D: $19/100 * 15 = 2.85$ million.
+This gives us B (4.45) over A (2) and D (2.85) over C (0.4).
+
+
+Yes, because I trust the numbers and not my gut. I also wouldn&rsquo;t be betting anything (aside from the cost of a ticket, not given). So, no matter what happens, my losses will be zero, allowing me to take on greater risks.
+
+
+e
+
+Alt. 2
+Alt. 2
+This is a classic prisoners&rsquo; dillemna. I&rsquo;m not sure why it would be of less interest than a stag hunt.
+
+
+The Greeks talked about decisions, but lacked probability and numbers to back it up. The Early Moderns developed probability and numbers to back up more advanced discussions of decisions. In the modern age, we&rsquo;re trying to axiomatize the entire field.
+The Greeks were excellent mathematicians, but they also lacked the number zero and other innovations. Like most all else, though, it can probably be attributed to luck.
+Lower. Substantially lower. The complement of the 24-times calculus suggests that you wouldnt get a pair of sixes 51% of the time. The more dices you throw, the lower this number gets (and the higher its complement gets).
+">  
+
+  <title>
+    
+      An Introduction to Decision Theory
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="http://localhost:1313/" />
+  
+  
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.4aaf47c11a15fb36f5cb1e17c4a04fee858870e4ec1bbeef500550da47a8da5431c0ebfb7e12a8389b9be71f0448dd9d6e94437d3407da5fbd353f5c5974e3d6.css" integrity="sha512-Sq9HwRoV&#43;zb1yx4XxKBP7oWIcOTsG77vUAVQ2keo2lQxwOv7fhKoOJub5x8ESN2dbpRDfTQH2l&#43;9NT9cWXTj1g==" />
+  <script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    }
+  };
+
+  window.addEventListener('load', (event) => {
+      document.querySelectorAll("mjx-container").forEach(function(x){
+        x.parentElement.classList += 'has-jax'})
+    });
+
+</script>
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</head>
+<body a="auto">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="http://localhost:1313/">&lt;-</a>
+
+
+<article>
+    <p class="post-meta">
+        <time datetime="2025-06-12 15:49:03 &#43;0500 PKT">
+            2025-06-12
+        </time>
+    </p>
+
+    <h1>An Introduction to Decision Theory</h1>
+
+    
+
+    <h3 id="by-martin-peterson"><em>by Martin Peterson</em></h3>
+<p>Answers to questions.</p>
+<h3 id="introduction">Introduction</h3>
+<ol>
+<li>a
+<ol>
+<li>A decision is right if its outcome is most optimal compared to all other outcomes. A decision is rational if it is the best way of achieving the decision-makers ends, given what he knows.</li>
+<li>In decisions made under risk, the decision-maker knows the probabilities of possible outcomes. In decisions made under ignorance, he does not.</li>
+</ol>
+</li>
+<li>b
+<ol>
+<li>Social choices are those made collectively. Individual decisions are of many types, but mainly consider the actions of a single individual.</li>
+<li>Games involve multiple players whose actions affect each other.</li>
+</ol>
+</li>
+<li>c
+<ol>
+<li>Ignorance. He had no data by which he could infer the probabilities (risks) of the outcomes of his decision. If we consider merely the question of death, he could not have known the probability of the plane dying and his perishing, or the probability of the plane landing safely.</li>
+<li>Risk. I can use the internet to determine the probability of me dying in a plane crash on the way or surviving and construct a payoff matrix, unlike Lindbergh.</li>
+</ol>
+</li>
+<li>d
+<ol>
+<li>B to A, and D to C? My mind immediately went to calculation, so this was not really intuitive.</li>
+<li>b
+<ol>
+<li>For A: 2 million guaranteed.</li>
+<li>For B: $0 * 1/100 + 15 * 19/100 + 2 * 80/100 = 4.45$ million.</li>
+<li>For C: $2*20/100 = 0.4$ million.</li>
+<li>For D: $19/100 * 15 = 2.85$ million.</li>
+<li>This gives us B (4.45) over A (2) and D (2.85) over C (0.4).</li>
+</ol>
+</li>
+<li>Yes, because I trust the numbers and not my gut. I also wouldn&rsquo;t be betting anything (aside from the cost of a ticket, not given). So, no matter what happens, my losses will be zero, allowing me to take on greater risks.</li>
+</ol>
+</li>
+<li>e
+<ol>
+<li>Alt. 2</li>
+<li>Alt. 2</li>
+<li>This is a classic prisoners&rsquo; dillemna. I&rsquo;m not sure why it would be of less interest than a stag hunt.</li>
+</ol>
+</li>
+<li>The Greeks talked about decisions, but lacked probability and numbers to back it up. The Early Moderns developed probability and numbers to back up more advanced discussions of decisions. In the modern age, we&rsquo;re trying to axiomatize the entire field.</li>
+<li>The Greeks were excellent mathematicians, but they also lacked the number zero and other innovations. Like most all else, though, it can probably be attributed to luck.</li>
+<li>Lower. Substantially lower. The complement of the 24-times calculus suggests that you wouldnt get a pair of sixes 51% of the time. The more dices you throw, the lower this number gets (and the higher its complement gets).</li>
+</ol>
+
+</article>
+
+                
+    
+    
+        © <a href="https://ghassbomb.github.io">Ghassan Shahzad</a> 2025&ndash;
+    
+
+
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,6 +1,6 @@
-baseURL = "https://ghassbomb.github.io/"
+baseURL = "https://thepeanutvendor.github.io/"
 languageCode = "en-us"
-title = "Ghassan Shahzad"
+title = "The Peanut Vendor"
 theme = 'nostyle'
 canonifyurls = true
 

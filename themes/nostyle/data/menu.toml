@@ -2,27 +2,30 @@
 title = "My Personal Site"
   [[entries.entries]]
   title = "My Github"
-  url = "https://github.com/ghassbomb"
+  url = "https://github.com/thepeanutvendor"
 
 [[entries]]
 title = "Menu"
 
   [[entries.entries]]
+  title = "Posts"
+  url = "/posts"
+
+  [[entries.entries]]
+  title = "Books"
+  url = "/books"
+
+  [[entries.entries]]
+  title = "Courses"
+  url = "/courses"
+
+  [[entries.entries]]
   title = "Mathematics"
   url = "/maths"
 
-    [[entries.entries]]
-  title = "Philosophy"
-  url = "/phil"
-
-[[entries]]
-title = "All Posts"
-
-  [entries.post_list]
-  limit = 5
-  show_more = true
-  show_more_text = "See archive..."
-  show_more_url = "posts"
+[[entries.entries]]
+title = "Philosophy"
+url = "/phil"
 
 [[entries]]
 title = "Words of Wisdom"

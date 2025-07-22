@@ -17,7 +17,28 @@
   
   
   <link rel="stylesheet" href="http://localhost:1313/css/main.4aaf47c11a15fb36f5cb1e17c4a04fee858870e4ec1bbeef500550da47a8da5431c0ebfb7e12a8389b9be71f0448dd9d6e94437d3407da5fbd353f5c5974e3d6.css" integrity="sha512-Sq9HwRoV&#43;zb1yx4XxKBP7oWIcOTsG77vUAVQ2keo2lQxwOv7fhKoOJub5x8ESN2dbpRDfTQH2l&#43;9NT9cWXTj1g==" />
-  
+  <script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    }
+  };
+
+  window.addEventListener('load', (event) => {
+      document.querySelectorAll("mjx-container").forEach(function(x){
+        x.parentElement.classList += 'has-jax'})
+    });
+
+</script>
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 </head>
 <body a="auto">
         <main class="page-content" aria-label="Content">
@@ -27,22 +48,13 @@
 
 <h1>Mathematics</h1>
 
-<p>Notes on courses, mostly.</p>
-
-
-    <ul><li>
-            <span>2025-05-30</span>
-            <a href="http://localhost:1313/maths/tgc-game-theory/">Course on Game Theory</a>
-        </li>
-        
-    </ul>
-
+<p>Mostly contains solutions for individual courses and textbooks that I take. Organized by field, and then by chronology.</p>
 
 
                 
     
     
-        © <a href="https://ghassbomb.github.io">Ghassan Shahzad</a> 2025&ndash;
+        © <a href="https://thepeanutvendor.github.io">The Peanut Vendor</a> 2025&ndash;
     
 
 

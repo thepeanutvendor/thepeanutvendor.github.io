@@ -1,5 +1,6 @@
 ---
 title: "Mathematics"
+layout: list_tailored
 ---
 
-Notes on courses, mostly.
+Mostly contains solutions for individual courses and textbooks that I take. Organized by field, and then by chronology.

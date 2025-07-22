@@ -1,1 +1,1 @@
-&copy; [Ghassan Shahzad](https://ghassbomb.github.io) 2025--
+&copy; [The Peanut Vendor](https://thepeanutvendor.github.io) 2025--
