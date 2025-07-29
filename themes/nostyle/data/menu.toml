@@ -12,10 +12,6 @@ title = "Menu"
   url = "/posts"
 
   [[entries.entries]]
-  title = "Books"
-  url = "/books"
-
-  [[entries.entries]]
   title = "Courses"
   url = "/courses"
 
@@ -23,9 +19,12 @@ title = "Menu"
   title = "Mathematics"
   url = "/maths"
 
-[[entries.entries]]
-title = "Philosophy"
-url = "/phil"
+[[entries]]
+title = "Projects"
+
+  [[entries.entries]]
+  title = "MCQambridge"
+  url = "https://github.com/thepeanutvendor/mcqambridge"
 
 [[entries]]
 title = "Words of Wisdom"
