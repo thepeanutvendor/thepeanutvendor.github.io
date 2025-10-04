@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/ghassbomb/Documents/Projects/main",
+	"sourceRoot": "/home/ghassbomb/Documents/projects/main",
 	"sources": [
 		"themes/nostyle/assets/css/main.scss"
 	],
