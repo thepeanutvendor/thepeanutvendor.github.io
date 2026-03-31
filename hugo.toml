@@ -1,7 +1,7 @@
 baseURL = "https://thepeanutvendor.github.io/"
 languageCode = "en-us"
 title = "The Peanut Vendor"
-theme = 'nostyle'
+theme = 'blowfish'
 canonifyurls = true
 
 [sitemap]
