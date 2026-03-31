@@ -1,0 +1,26 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Ghassan Shahzad"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+description = "A personal website."
+
+[[params.author.links]]
+email = "ghass.shahzad@gmail.com"
+
+[[params.author.links]]
+github = "github.com/thepeanutvendor"
+
+[[params.author.links]]
+goodreads = "https://www.goodreads.com/thepeanutvendor"
+
+["params.author"]
+name = "Ghassan Shahzad"
+email = "ghass.shahzad@gmail.com"
+headline = "Student"

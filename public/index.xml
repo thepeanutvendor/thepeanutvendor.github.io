@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Peanut Vendor</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on The Peanut Vendor</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <title>Ghassan Shahzad</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Ghassan Shahzad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ghass.shahzad@gmail.com (Ghassan Shahzad)</managingEditor>
+    <webMaster>ghass.shahzad@gmail.com (Ghassan Shahzad)</webMaster>
+    <copyright>© 2026 Ghassan Shahzad</copyright>
+    <lastBuildDate>Sun, 29 Mar 2026 20:17:30 +0500</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Modeling my first-year finances</title>
+      <link>//localhost:1313/posts/modeling-first-year-finances/</link>
+      <pubDate>Sun, 29 Mar 2026 20:17:30 +0500</pubDate>
+      <author>ghass.shahzad@gmail.com (Ghassan Shahzad)</author>
+      <guid>//localhost:1313/posts/modeling-first-year-finances/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>

@@ -1,1 +1,0 @@
-&copy; [The Peanut Vendor](https://thepeanutvendor.github.io) 2025--
