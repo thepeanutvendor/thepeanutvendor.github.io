@@ -1,11 +1,11 @@
 ---
-date: '2026-03-29T20:17:30+05:00'
+title: "Testing the Phillips Curve"
+date: 2026-04-03T21:31:07+05:00
 draft: false
-title: 'Modeling my first-year finances'
-toc: true
-category: 'Data Science'
+description: "In this notebook, I try to replicate and analyse the Phillips Curve."
+series: "Replicating Economic Models"
+series_order: 1
 ---
-
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -28,7 +28,7 @@ This traditional formulation was empirically disproven by the oil shock after 19
 
 1. In the long run, employees will see their real wages decline
 2. This will incite them to demand greater wages
-3. This will force forms to lay off workers
+3. This will force firms to lay off workers
 4. Employment will return to its natural rate, but inflation will still be high
 
 

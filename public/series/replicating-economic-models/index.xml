@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Ghassan Shahzad</title>
-    <link>//localhost:1313/posts/</link>
-    <description>Recent content in Posts on Ghassan Shahzad</description>
+    <title>Replicating Economic Models on Ghassan Shahzad</title>
+    <link>//localhost:1313/series/replicating-economic-models/</link>
+    <description>Recent content in Replicating Economic Models on Ghassan Shahzad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>ghass.shahzad@gmail.com (Ghassan Shahzad)</managingEditor>
     <webMaster>ghass.shahzad@gmail.com (Ghassan Shahzad)</webMaster>
     <copyright>© 2026 Ghassan Shahzad</copyright>
-    <lastBuildDate>Fri, 03 Apr 2026 21:31:07 +0500</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Apr 2026 21:31:07 +0500</lastBuildDate><atom:link href="//localhost:1313/series/replicating-economic-models/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Testing the Phillips Curve</title>
@@ -19,16 +19,6 @@
       <guid>//localhost:1313/posts/testing-phillips-curve/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/testing-phillips-curve/featured.png" />
-    </item>
-    
-    <item>
-      <title>Modeling my first-year finances</title>
-      <link>//localhost:1313/posts/modeling-first-year-finances/</link>
-      <pubDate>Sun, 29 Mar 2026 20:17:30 +0500</pubDate>
-      <author>ghass.shahzad@gmail.com (Ghassan Shahzad)</author>
-      <guid>//localhost:1313/posts/modeling-first-year-finances/</guid>
-      <description></description>
-      
     </item>
     
   </channel>

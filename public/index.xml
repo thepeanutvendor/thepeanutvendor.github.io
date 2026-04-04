@@ -9,7 +9,17 @@
     <managingEditor>ghass.shahzad@gmail.com (Ghassan Shahzad)</managingEditor>
     <webMaster>ghass.shahzad@gmail.com (Ghassan Shahzad)</webMaster>
     <copyright>© 2026 Ghassan Shahzad</copyright>
-    <lastBuildDate>Sun, 29 Mar 2026 20:17:30 +0500</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Apr 2026 21:31:07 +0500</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Testing the Phillips Curve</title>
+      <link>//localhost:1313/posts/testing-phillips-curve/</link>
+      <pubDate>Fri, 03 Apr 2026 21:31:07 +0500</pubDate>
+      <author>ghass.shahzad@gmail.com (Ghassan Shahzad)</author>
+      <guid>//localhost:1313/posts/testing-phillips-curve/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/testing-phillips-curve/featured.png" />
+    </item>
     
     <item>
       <title>Modeling my first-year finances</title>
@@ -18,7 +28,7 @@
       <author>ghass.shahzad@gmail.com (Ghassan Shahzad)</author>
       <guid>//localhost:1313/posts/modeling-first-year-finances/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/modeling-first-year-finances/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/modeling-first-year-finances/featured.png" />
     </item>
     
     <item>

@@ -47,3 +47,9 @@ filename = "sitemap.xml"
     date_format       = "2006-01-02"
     isListGroupByDate = false
     isShowFooter      = true
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"

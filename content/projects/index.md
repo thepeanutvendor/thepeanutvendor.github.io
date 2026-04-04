@@ -32,5 +32,13 @@ Modeling First-Year Finances
             <a href="https://thepeanutvendor.github.io/posts/modeling-first-year-finances/">summary</a>
             </td>
         </tr>
+        <tr>
+            <td>Replicating Economic Models</td>
+            <td>In this series I try to replicate economic models using open datasets and Pandas. Intended to build Python, Pandas, and economic understanding.</td>
+            <td>
+            <a href="/series/replicating-economic-models/">page</a>
+            <br>
+            </td>
+        </tr>
     </tbody>
 </table>
