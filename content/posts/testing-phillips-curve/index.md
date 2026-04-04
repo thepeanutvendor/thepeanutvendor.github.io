@@ -468,7 +468,7 @@ sns.lineplot(unemp_inf)
 
 
     
-![png](main_files/main_9_1.png)
+![png](https://raw.githubusercontent.com/thepeanutvendor/economic-analysis/refs/heads/main/replicating-phillips-curve/main_files/main_9_1.png "Fig 1: Unemployment and Inflation")
     
 
 
@@ -489,7 +489,7 @@ sns.lineplot(sixties)
 
 
     
-![png](main_files/main_11_1.png)
+![png](https://raw.githubusercontent.com/thepeanutvendor/economic-analysis/refs/heads/main/replicating-phillips-curve/main_files/main_11_1.png "Fig 2: Unemployment and Inflation in the 60s" )
     
 
 
@@ -521,7 +521,7 @@ sns.regplot(x=sixties['inflation_rate'], y=sixties['unemployment_rate'])
 
 
     
-![png](main_files/main_14_1.png)
+![png](https://raw.githubusercontent.com/thepeanutvendor/economic-analysis/refs/heads/main/replicating-phillips-curve/main_files/main_14_1.png "Fig 3: A Regression Plot of the Same")
     
 
 
@@ -542,7 +542,7 @@ sns.lineplot(seventies)
 
 
     
-![png](main_files/main_16_1.png)
+![png](https://raw.githubusercontent.com/thepeanutvendor/economic-analysis/refs/heads/main/replicating-phillips-curve/main_files/main_16_1.png "Fig 4: Unemployment and Inflation in the 70s")
     
 
 
@@ -574,7 +574,7 @@ sns.regplot(x=seventies['inflation_rate'], y=seventies['unemployment_rate'])
 
 
     
-![png](main_files/main_19_1.png)
+![png](https://raw.githubusercontent.com/thepeanutvendor/economic-analysis/refs/heads/main/replicating-phillips-curve/main_files/main_19_1.png "Fig 5: A Regression Plot of the Same")
     
 
 
@@ -787,7 +787,7 @@ sns.lineplot(uninf_corr)
 
 
     
-![png](main_files/main_24_1.png)
+![png](https://raw.githubusercontent.com/thepeanutvendor/economic-analysis/refs/heads/main/replicating-phillips-curve/main_files/main_24_1.png "Fig 6: Correlation b/w Unemployment and Inflation Within Each Year")
     
 
 
@@ -1112,7 +1112,7 @@ sns.lineplot(x=lag_correlations_df['Lag'], y=lag_correlations_df['Correlation'],
 
 
     
-![png](main_files/main_34_1.png)
+![png](https://raw.githubusercontent.com/thepeanutvendor/economic-analysis/refs/heads/main/replicating-phillips-curve/main_files/main_34_1.png "Fig 7: Correlation b/w Unemployment and Inflation, by Lag and Era")
     
 
 
@@ -1210,7 +1210,7 @@ sns.lineplot(unemp_inf[eras['post_gfc'][0]:eras['post_gfc'][1]])
 
 
     
-![png](main_files/main_38_1.png)
+![png](https://raw.githubusercontent.com/thepeanutvendor/economic-analysis/refs/heads/main/replicating-phillips-curve/main_files/main_38_1.png "Fig 8: Unemployment and Inflation during the Great Recession and Aftermath")
     
 
 

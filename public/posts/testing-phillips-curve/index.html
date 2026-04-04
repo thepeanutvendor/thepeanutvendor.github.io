@@ -234,7 +234,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "3044"
+    "wordCount": "3113"
   }]
   </script>
 
@@ -659,7 +659,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-04-03T21:31:07&#43;05:00">3 April 2026</time><span class="px-2 text-primary-500">&middot;</span><span>3044 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">15 mins</span>
+      <time datetime="2026-04-03T21:31:07&#43;05:00">3 April 2026</time><span class="px-2 text-primary-500">&middot;</span><span>3113 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">15 mins</span>
     
 
     
@@ -1289,8 +1289,8 @@
     decoding="async"
     fetchpriority="low"
     alt="png"
-    src="main_files/main_9_1.png"
-    ></figure>
+    src="https://raw.githubusercontent.com/thepeanutvendor/economic-analysis/refs/heads/main/replicating-phillips-curve/main_files/main_9_1.png"
+    ><figcaption>Fig 1: Unemployment and Inflation</figcaption></figure>
 <p>What&rsquo;s cool about this specific data is that we can trace the history of economic thought, specifically the Phillips&rsquo; Curve, through it. If we look at the 1960-70 period, we see the negative correlation the traditional model argues for. 1970 onwards, we see that correlation completely collapse.</p>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">sixties</span> <span class="o">=</span> <span class="n">unemp_inf</span><span class="p">[</span><span class="s1">&#39;1960-01-01&#39;</span><span class="p">:</span><span class="s1">&#39;1967-01-01&#39;</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="n">sns</span><span class="o">.</span><span class="n">lineplot</span><span class="p">(</span><span class="n">sixties</span><span class="p">)</span></span></span></code></pre></div></div>
@@ -1302,8 +1302,8 @@
     decoding="async"
     fetchpriority="low"
     alt="png"
-    src="main_files/main_11_1.png"
-    ></figure>
+    src="https://raw.githubusercontent.com/thepeanutvendor/economic-analysis/refs/heads/main/replicating-phillips-curve/main_files/main_11_1.png"
+    ><figcaption>Fig 2: Unemployment and Inflation in the 60s</figcaption></figure>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">sixties</span><span class="p">[</span><span class="s1">&#39;unemployment_rate&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">corr</span><span class="p">(</span><span class="n">sixties</span><span class="p">[</span><span class="s1">&#39;inflation_rate&#39;</span><span class="p">])</span> </span></span></code></pre></div></div>
 <pre><code>np.float64(-0.8812049507014807)
 </code></pre>
@@ -1317,8 +1317,8 @@
     decoding="async"
     fetchpriority="low"
     alt="png"
-    src="main_files/main_14_1.png"
-    ></figure>
+    src="https://raw.githubusercontent.com/thepeanutvendor/economic-analysis/refs/heads/main/replicating-phillips-curve/main_files/main_14_1.png"
+    ><figcaption>Fig 3: A Regression Plot of the Same</figcaption></figure>
 
 <h2 class="relative group">Stagflation
     <div id="stagflation" class="anchor"></div>
@@ -1339,8 +1339,8 @@
     decoding="async"
     fetchpriority="low"
     alt="png"
-    src="main_files/main_16_1.png"
-    ></figure>
+    src="https://raw.githubusercontent.com/thepeanutvendor/economic-analysis/refs/heads/main/replicating-phillips-curve/main_files/main_16_1.png"
+    ><figcaption>Fig 4: Unemployment and Inflation in the 70s</figcaption></figure>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">seventies</span><span class="p">[</span><span class="s1">&#39;unemployment_rate&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">corr</span><span class="p">(</span><span class="n">seventies</span><span class="p">[</span><span class="s1">&#39;inflation_rate&#39;</span><span class="p">])</span></span></span></code></pre></div></div>
 <pre><code>np.float64(0.2663010944577987)
 </code></pre>
@@ -1354,8 +1354,8 @@
     decoding="async"
     fetchpriority="low"
     alt="png"
-    src="main_files/main_19_1.png"
-    ></figure>
+    src="https://raw.githubusercontent.com/thepeanutvendor/economic-analysis/refs/heads/main/replicating-phillips-curve/main_files/main_19_1.png"
+    ><figcaption>Fig 5: A Regression Plot of the Same</figcaption></figure>
 
 <h2 class="relative group">The Short-run
     <div id="the-short-run" class="anchor"></div>
@@ -1545,8 +1545,8 @@
     decoding="async"
     fetchpriority="low"
     alt="png"
-    src="main_files/main_24_1.png"
-    ></figure>
+    src="https://raw.githubusercontent.com/thepeanutvendor/economic-analysis/refs/heads/main/replicating-phillips-curve/main_files/main_24_1.png"
+    ><figcaption>Fig 6: Correlation b/w Unemployment and Inflation Within Each Year</figcaption></figure>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">uninf_corr</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span></span></span></code></pre></div></div>
 <pre><code>unemployment_rate   -0.139759
 dtype: float64
@@ -1826,8 +1826,8 @@ dtype: float64
     decoding="async"
     fetchpriority="low"
     alt="png"
-    src="main_files/main_34_1.png"
-    ></figure>
+    src="https://raw.githubusercontent.com/thepeanutvendor/economic-analysis/refs/heads/main/replicating-phillips-curve/main_files/main_34_1.png"
+    ><figcaption>Fig 7: Correlation b/w Unemployment and Inflation, by Lag and Era</figcaption></figure>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">lag_correlations_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;Era&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span> <span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">nsmallest</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;Correlation&#39;</span><span class="p">))</span> <span class="c1"># The lowest correlation and its = lag by era</span></span></span></code></pre></div></div>
 <div>
 <style scoped>
@@ -1910,8 +1910,8 @@ dtype: float64
     decoding="async"
     fetchpriority="low"
     alt="png"
-    src="main_files/main_38_1.png"
-    ></figure>
+    src="https://raw.githubusercontent.com/thepeanutvendor/economic-analysis/refs/heads/main/replicating-phillips-curve/main_files/main_38_1.png"
+    ><figcaption>Fig 8: Unemployment and Inflation during the Great Recession and Aftermath</figcaption></figure>
 <p>Inflation and unemployment both started off high in the GFC era. As the economy plunged into recession, the economy suffered a collapse in employment and deflation - simultaneously. This is likely due to the special nature of the crisis that occurred in 2008.</p>
 <p>In the aftermath and recovery, unemployment came down from its heights while inflation stayed stable. This is because the economy was operating below full employment, or at an unemployment gap. Closing this gap between current unemployment and the natural rate of unemployment should not generate inflationary pressure, and did not up till 2015, where we see a simultaneous increase in inflation and a continued decrease in unemployment past pre-crisis levels.</p>
 <p>This decrease continued up till COVID. COVID was an especially unique crisis. The economy suffered highs in inflation you wouldn&rsquo;t usually see during a period of recession, because of supply-side issues caused by the pandemic. There is a brief lag here, which probably reflects the time between lockdowns -&gt; supply-side issues. The collapse in inflation and unemployment, and the lag between those too, can be put down to the end of lockdowns, (the resolution of) supply-side issues, and also fiscal stimulus.</p>

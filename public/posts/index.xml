@@ -28,7 +28,7 @@
       <author>ghass.shahzad@gmail.com (Ghassan Shahzad)</author>
       <guid>//localhost:1313/posts/modeling-first-year-finances/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/modeling-first-year-finances/featured.png" />
     </item>
     
   </channel>
