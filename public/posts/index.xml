@@ -9,7 +9,17 @@
     <managingEditor>ghass.shahzad@gmail.com (Ghassan Shahzad)</managingEditor>
     <webMaster>ghass.shahzad@gmail.com (Ghassan Shahzad)</webMaster>
     <copyright>© 2026 Ghassan Shahzad</copyright>
-    <lastBuildDate>Fri, 03 Apr 2026 21:31:07 +0500</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ontario Education &amp; OSAP</title>
+      <link>//localhost:1313/posts/ontario-education--osap/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <author>ghass.shahzad@gmail.com (Ghassan Shahzad)</author>
+      <guid>//localhost:1313/posts/ontario-education--osap/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/ontario-education--osap/featured.png" />
+    </item>
     
     <item>
       <title>Testing the Phillips Curve</title>

@@ -33,10 +33,10 @@ Modeling First-Year Finances
             </td>
         </tr>
         <tr>
-            <td>Replicating Economic Models</td>
-            <td>In this series I try to replicate economic models using open datasets and Pandas. Intended to build Python, Pandas, and economic understanding.</td>
+            <td>Empirical Economics</td>
+            <td>A series of data-driven economic analyses using Python and pandas.</td>
             <td>
-            <a href="/series/replicating-economic-models/">page</a>
+            <a href="/series/empirical-economics/">page</a>
             <br>
             </td>
         </tr>

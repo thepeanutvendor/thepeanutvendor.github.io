@@ -3,7 +3,7 @@ title: "Testing the Phillips Curve"
 date: 2026-04-03T21:31:07+05:00
 draft: false
 description: "In this notebook, I try to replicate and analyse the Phillips Curve."
-series: "Replicating Economic Models"
+series: "Empirical Economics"
 series_order: 1
 ---
 ```python
